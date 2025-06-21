@@ -1,6 +1,6 @@
 ﻿namespace ItemtypeDatEditor
 {
-    partial class Form1
+    partial class EditorForm
     {
         /// <summary>
         ///  Required designer variable.
@@ -27,7 +27,7 @@
 
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EditorForm));
             dataGridView1 = new DataGridView();
             btnLoad = new Button();
             lblStatus = new Label();

@@ -10,7 +10,7 @@ using MySql.Data.MySqlClient; // Import MySQL .dll
 
 namespace ItemtypeDatEditor
 {
-    public partial class Form1 : Form
+    public partial class EditorForm : Form
     {
 
         public static DataTable ToDataTable<T>(List<T> items)
@@ -29,7 +29,7 @@ namespace ItemtypeDatEditor
             }
             return dt;
         }
-        public Form1()
+        public EditorForm()
         {
             Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
             InitializeComponent();
